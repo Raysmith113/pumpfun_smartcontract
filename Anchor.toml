@@ -8,7 +8,7 @@ skip-lint = false
 pump = "srpetQMtZ3YuhpZBeWPTgwUB9wtaE8pi2RgLn4qfHhV"
 
 [registry]
-url = "https://devnet.helius-rpc.com/?api-key=39d83ffa-585c-4f90-8636-2f6795db4cb3"
+url = "https://api.apr.dev"
 
 [provider]
 cluster = "devnet"
