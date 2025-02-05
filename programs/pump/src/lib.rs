@@ -45,7 +45,7 @@ pub mod pump {
     }
 
     ////////////////////    DM if you want full implementation  ////////////////////
-    // telegram - https://t.me/microgift28
+    // telegram - https://t.me/microgift88
     // discord - https://discord.com/users/1074514238325927956
 
     //  migrate the token to raydium once a curve reaches the limit
