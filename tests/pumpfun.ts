@@ -30,10 +30,6 @@ import {
 } from "./utils";
 require("dotenv").config();
 
-// const tokenProgram = "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA";
-// const associatedTokenProgram = "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL";
-// const metadataProgram = "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s";
-
 describe("pumpfun", () => {
   // Configure the client to use the local cluster.
   const provider = anchor.AnchorProvider.env();
