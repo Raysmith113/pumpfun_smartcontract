@@ -1,12 +1,17 @@
 {
     "scripts": {
         "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
-        "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check"
+        "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check",
+        "test": "mocha -r ts-node/register tests/**/*.ts",
+        "script": "ts-node ./cli/command.ts"
     },
     "dependencies": {
         "@coral-xyz/anchor": "^0.30.1",
+        "@project-serum/serum": "^0.13.65",
+        "@raydium-io/raydium-sdk": "^1.3.1-beta.58",
         "@solana/spl-token": "^0.4.8",
-        "@solana/web3.js": "^1.91.8"
+        "@solana/web3.js": "^1.68.0",
+        "dotenv": "^16.4.5"
     },
     "devDependencies": {
         "@types/bn.js": "^5.1.0",
