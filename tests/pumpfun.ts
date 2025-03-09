@@ -142,6 +142,7 @@ describe("pumpfun", () => {
   it("Is the token created", async () => {
     console.log("token: ", tokenKp.publicKey.toBase58());
     // get PDA for the config account using the seed "config".
+    // get PDA for the config account using the seed "config".
     const [configPda] = PublicKey.findProgramAddressSync(
       [Buffer.from(SEED_CONFIG)],
       program.programId
